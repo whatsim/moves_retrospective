@@ -33,4 +33,4 @@ Hopefully that is relatively self explanatory.
 
 MIT 2016 [http://whatsim.mit-license.org](http://whatsim.mit-license.org)
 
-As with most all of my projects, this is not something I'm supporting but feel free to ask, worst I'll say is know. Feel free to use it for whatever!
+As with most all of my projects, this is not something I'm supporting but feel free to ask, worst I'll say is no. Feel free to use it for whatever!
