@@ -1,6 +1,6 @@
 #moves retro
 
-This is a little script I use for suming up historical Moves app data. Moves is a pedometer app for iOS (maybe android?), and as long as you have an account you can log onto their website and download an archive of data. By the way, this is rad.
+This is a little script I use for summing up historical Moves app data. Moves is a pedometer app for iOS (maybe android?), and as long as you have an account you can log onto their website and download an archive of data. By the way, this is rad.
 
 In the archive there's a bunch of folder subdivisions by time, feel free to use what you're interested in, I always use 'full'. For purposes of this script uses the 'activities.geojson' file.
 
@@ -10,7 +10,7 @@ Usage then is as simple as:
 > node index.js activities.geojson "Jan 1 2016" "Jan 1 2017" walking
 ```
 
-The first arguement is the input moves geojson file, the next two are the START DATE and END DATE you're interested in. Omitting this sums the whole file. The dates are converted to Date objects by the moment package, so in order to get a single day you'd want to do something like:
+The first argument is the input moves geojson file, the next two are the START DATE and END DATE you're interested in. Omitting this sums the whole file. The dates are converted to Date objects by the moment package, so in order to get a single day you'd want to do something like:
 
 ```
 > node index.js activities.geojson "Jan 1 2016" "Jan 2 2016" walking
